@@ -28,20 +28,20 @@ const sidebarOpen = ref(false);
 </script>
 
 <style scoped>
-  /* Sidebar Styles */
-      /* .sidebar {
+/* Sidebar Styles */
+/* .sidebar {
         position: relative; 
         z-index: 1; 
       } */
 
-      /* Header Styles */
-      /* .header {
+/* Header Styles */
+/* .header {
         position: relative; 
         z-index: 10;
       } */
 
-      /* Main Area */
-      /* main {
+/* Main Area */
+/* main {
         position: relative;
         z-index: 0; 
       } */
