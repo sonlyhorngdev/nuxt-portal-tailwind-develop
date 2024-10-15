@@ -49,7 +49,7 @@ const sidebarOpen = ref(false);
   position: sticky;
   top: 0;
   z-index: 50;
-  background-color: rgb(43, 113, 203);
+  background-color: white;
 }
 
 /* Main Area (Scrollable) */
