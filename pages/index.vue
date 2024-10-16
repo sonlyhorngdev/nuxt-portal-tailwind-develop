@@ -20,7 +20,7 @@ import { useRouter } from 'vue-router';
 const router = useRouter();
 
 const navigateToAccount = () => {
-    router.push('/account/account'); // Navigate to the Account page
+    router.push('/login/login'); // Navigate to the Account page
 };
 </script>
 
