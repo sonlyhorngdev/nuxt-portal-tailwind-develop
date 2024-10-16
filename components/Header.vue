@@ -3,7 +3,7 @@
     <div class="flex flex-wrap justify-between items-center">
 
       <div class="flex justify-start items-center">
-        <a href="https://flowbite.com" class="flex items-center justify-between mr-4 hidden sm:flex">
+        <a class="flex items-center justify-between mr-4 hidden sm:flex">
           <img src="https://flowbite.s3.amazonaws.com/logo.svg" class="mr-3 h-8" />
           <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-grey-500">iOne</span>
         </a>

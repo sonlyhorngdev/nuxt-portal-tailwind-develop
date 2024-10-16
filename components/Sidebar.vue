@@ -81,3 +81,30 @@
     </div>
   </aside>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      isSidebarVisible: true,
+      dropdownVisible: false,
+    };
+  },
+  computed: {
+    sidebarClass() {
+      return {
+        'transform -translate-x-full': !this.isSidebarVisible, // Hide sidebar
+        'translate-x-0': this.isSidebarVisible, // Show sidebar
+      };
+    },
+  },
+  methods: {
+    toggleSidebar() {
+      this.isSidebarVisible = !this.isSidebarVisible;
+    },
+    toggleDropdown() {
+      this.dropdownVisible = !this.dropdownVisible;
+    },
+  },
+};
+</script>

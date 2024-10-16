@@ -11,9 +11,7 @@
       <main class="flex-1 p-4 bg-gray-100">
         <NuxtPage />
       </main>
-
-      <!-- Footer at the bottom -->
-      <Footer class="h-16" />
+  
     </div>
   </div>
 </template>
@@ -22,31 +20,9 @@
 import { ref } from 'vue';
 import Header from '~/components/Header.vue';
 import Sidebar from '~/components/Sidebar.vue';
-import Footer from '~/components/Footer.vue';
 
 const sidebarOpen = ref(false);
 </script>
 
 <style scoped>
-/* Sidebar Styles */
-/* .sidebar {
-        position: relative; 
-        z-index: 1; 
-      } */
-
-/* Header Styles */
-/* .header {
-        position: relative; 
-        z-index: 10;
-      } */
-
-/* Main Area */
-/* main {
-        position: relative;
-        z-index: 0; 
-      } */
-/*       
-      .min-h-screen {
-        background-color: white;
-      } */
 </style>
