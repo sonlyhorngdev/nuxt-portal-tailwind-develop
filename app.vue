@@ -37,12 +37,12 @@ const sidebarOpen = ref(false);
 <style scoped>
 /* Sidebar Styles */
 .sidebar-left {
-  background-color: rgb(0, 204, 240);
+
 }
 
-.sidebar-right {
-  background-color: rgb(240, 204, 0); /* Different color for the right sidebar */
-}
+/* .sidebar-right {
+  background-color: rgb(240, 204, 0); /* Different color for the right sidebar 
+} */
 
 /* Header Styles */
 .header {
@@ -56,7 +56,6 @@ const sidebarOpen = ref(false);
 main {
   position: relative;
   z-index: 0;
-  background-color: rgb(19, 172, 214);
   overflow-y: auto; /* Enables scrolling within the main content */
 }
 
